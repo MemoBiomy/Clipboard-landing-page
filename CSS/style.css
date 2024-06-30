@@ -34,8 +34,8 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media (min-width: 414px) {
@@ -148,6 +148,23 @@ body {
 }
 
 
+@media (max-width: 414px) {
+    .landing {
+        background-image: url(../images/bg-header-mobile.png);
+    }
+    .landing h1 {
+        font-size: 30px;
+    }
+    .landing p {
+        width: 100%;
+        font-size: 20px;
+    }
+    .landing__buttons-box {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
 /* landing end */
 
 /* benefits start */
@@ -205,6 +222,36 @@ body {
 }
 
 
+@media (max-width: 414px) {
+    .benefits {
+        padding-bottom: 100px;
+    }
+    .benefits > h2 {
+        font-size: 27px;
+    }
+    .benefits > p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    .benefits__image-box {
+        width: 80%;
+        left: 0;
+    }
+    .benefits > div {
+        flex-direction: column;
+        text-align: center;
+    }
+    .benefits__text-box > div {
+        text-align: center;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 /* benefits end */
 
 /* picture start */
@@ -236,6 +283,27 @@ body {
 
 .picture img {
     width: 100%;
+}
+
+@media (max-width: 414px) {
+    .picture {
+        margin-bottom: 100px;
+    }
+    .picture > h2 {
+        font-size: 27px;
+    }
+    .picture > p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    .picture__image-box {
+        max-width: 85%;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* picture end */
@@ -289,6 +357,20 @@ body {
     max-width: 370px;
 }
 
+@media (max-width: 414px) {
+    .features {
+        padding-bottom: 100px;
+    }
+    .features .container > h2 {
+        font-size: 27px;
+    }
+    .features .container > p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+}
 
 /* features end */
 
@@ -302,6 +384,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 414px) {
+    .companies {
+        padding-bottom: 100px;
+    }
+    .companies .container {
+        flex-direction: column;
+        justify-content: stretch;
+        gap: 60px;
+    }
 }
 
 
@@ -358,6 +451,22 @@ body {
     background-color: #8896ff;
 }
 
+@media (max-width: 414px) {
+    .download {
+        padding-bottom: 100px;
+    }
+    .download h2 {
+        font-size: 27px;
+    }
+    .download p {
+        width: 100%;
+        font-size: 20px;
+    }
+    .download__buttons-box {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
 
 /* download end*/
 
@@ -426,6 +535,25 @@ footer .social i {
 
 footer .social i:hover {
     color: var(--strongCyan);
+}
+
+@media (max-width: 414px) {
+    footer .container {
+        flex-direction: column;
+        justify-content: stretch;
+        gap: 40px;
+    }
+    footer .container > div:first-child { 
+        flex-direction: column;
+        gap: 40px;
+    }
+    footer ul {
+        flex-flow: wrap column;
+        width: 100%;
+        row-gap: 20px;
+        column-gap: 0;
+        text-align: center;
+    }
 }
 
 /* footer end */
