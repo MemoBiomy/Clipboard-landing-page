@@ -359,4 +359,74 @@ body {
     background-color: #8896ff;
 }
 
+
 /* download end*/
+
+/* footer start */
+
+footer {
+    padding: 30px 0;
+    background-color: #f5f6f8;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container > div:first-child { 
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+footer .container > div:first-child img {
+    width: 100%;
+    max-width: 60px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    width: 620px;
+    row-gap: 15px;
+    column-gap: 50px;
+}
+
+footer li {
+    width: 100%;
+    max-width: 150px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--grayishBlue);
+    transition: var(--mainTransitionDuration);
+}
+
+footer a:hover {
+    color: var(--strongCyan);
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    font-size: 26px;
+    color: var(--darkGrayishBlue);
+}
+
+footer .social i {
+    transition: var(--mainTransitionDuration);
+    cursor: pointer;
+    width: 26px;
+}
+
+footer .social i:hover {
+    color: var(--strongCyan);
+}
+
+/* footer end */
