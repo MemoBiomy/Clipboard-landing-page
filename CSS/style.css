@@ -230,14 +230,19 @@ body {
 }
 
 .picture__image-box {
+<<<<<<< Updated upstream
     margin: 100px auto 0;
     max-width: 900px;
+=======
+
+>>>>>>> Stashed changes
 }
 
 .picture img {
     width: 100%;
 }
 
+<<<<<<< Updated upstream
 
 /* picture end */
 
@@ -430,3 +435,6 @@ footer .social i:hover {
 }
 
 /* footer end */
+=======
+/* picture end */
+>>>>>>> Stashed changes
