@@ -181,6 +181,7 @@ body {
 }
 
 .benefits__image-box {
+    width: 50%;
     position: relative;
     left: -4%;
 }
@@ -203,4 +204,37 @@ body {
     margin-bottom: 20px;
 }
 
+
 /* benefits end */
+
+/* picture start */
+
+.picture {
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.picture h2 {
+    font-weight: var(--weightBold);
+    color: var(--darkGrayishBlue);
+    font-size: 45px;
+    margin: 0 0 20px;
+}
+
+.picture p {
+    margin: 0 auto 0;
+    font-weight: var(--weightRegular);
+    color: var(--grayishBlue);
+    width: 728px;
+    font-size: 21px;
+}
+
+.picture__image-box {
+    margin: 100px auto 0;
+    max-width: 900px;
+}
+
+.picture img {
+    width: 100%;
+}
+/* picture end */
