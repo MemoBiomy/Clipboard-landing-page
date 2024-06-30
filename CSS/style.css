@@ -272,9 +272,6 @@ body {
     margin: 100px 0 0;
 }
 
-.features .text {
-
-}
 
 .features .text img {
     margin: 0 auto 30px;
@@ -305,7 +302,61 @@ body {
 .companies .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
+
 /* companies end */
+
+/* download start */
+
+.download {
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.download h2 {
+    font-weight: var(--weightBold);
+    color: var(--darkGrayishBlue);
+    font-size: 45px;
+    margin: 0 0 20px;
+}
+
+.download p {
+    margin: 0 auto 0;
+    font-weight: var(--weightRegular);
+    color: var(--grayishBlue);
+    width: 728px;
+    font-size: 21px;
+}
+
+.download__buttons-box {
+    display: flex;
+    width: fit-content;
+    margin: 60px auto 0;
+    gap: 20px;
+}
+
+.download__buttons-box button:first-child {
+    background-color: var(--strongCyan);
+    box-shadow: 
+    0 3px 1px 0 #2a8d7c,
+    5px 15px 20px 0 rgba(49, 221, 195, 0.3);
+}
+
+.download__buttons-box button:first-child:hover {
+    background-color: #59cebb;
+}
+
+.download__buttons-box button:last-child {
+    background-color: var(--lightBlue);
+    box-shadow: 
+    0 3px 1px 0 #4c58af,
+    5px 15px 20px 0 rgba(97, 115, 255, 0.3);
+}
+
+.download__buttons-box button:last-child:hover {
+    background-color: #8896ff;
+}
+
+/* download end*/
