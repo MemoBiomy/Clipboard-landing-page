@@ -237,4 +237,61 @@ body {
 .picture img {
     width: 100%;
 }
+
+
 /* picture end */
+
+/* features start */
+
+.features {
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.features .container > h2 {
+    font-weight: var(--weightBold);
+    color: var(--darkGrayishBlue);
+    font-size: 45px;
+    margin: 0 0 20px;
+}
+
+.features .container > p {
+    margin: 0 auto 0;
+    font-weight: var(--weightRegular);
+    color: var(--grayishBlue);
+    width: 728px;
+    font-size: 21px;
+}
+
+.features .holder {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    flex-flow: wrap;
+    margin: 100px 0 0;
+}
+
+.features .text {
+
+}
+
+.features .text img {
+    margin: 0 auto 30px;
+    height: 40px;
+}
+
+.features .text h3 {
+    color: var(--darkGrayishBlue);
+    font-weight: var(--weightBold);
+    margin-bottom: 20px;
+}
+
+.features .text p {
+    line-height: 1.6;
+    color: var(--grayishBlue);
+    max-width: 370px;
+}
+
+
+/* features end */
