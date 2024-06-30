@@ -7,6 +7,7 @@
 --weightRegular: 400;
 --fontFamily: "Bai Jamjuree", sans-serif;
 --fontSize: 18px;
+--mainTransitionDuration: .3s;
 }
 
 
@@ -79,7 +80,7 @@ body {
 .landing {
     padding-top: 120px;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 140px;
     background-image: url(../images/bg-header-desktop.png);
     background-position: top center;
     background-repeat: no-repeat;
@@ -120,20 +121,86 @@ body {
     color: white;
     font-size: 21px;
     font-weight: var(--weightBold);
+    transition: var(--mainTransitionDuration);
+    cursor: pointer;
 }
 
 .buttons-box__button:first-child {
     background-color: var(--strongCyan);
     box-shadow: 
-    0 3px 1px 0 #156457,
+    0 3px 1px 0 #2a8d7c,
     5px 15px 20px 0 rgba(49, 221, 195, 0.3);
+}
+
+.buttons-box__button:first-child:hover {
+    background-color: #59cebb;
 }
 
 .buttons-box__button:last-child {
     background-color: var(--lightBlue);
     box-shadow: 
-    0 3px 1px 0 #303a81,
-    5px 15px 20px 0 rgba(97, 115, 255, 0.4);
+    0 3px 1px 0 #4c58af,
+    5px 15px 20px 0 rgba(97, 115, 255, 0.3);
 }
 
+.buttons-box__button:last-child:hover {
+    background-color: #8896ff;
+}
+
+
 /* landing end */
+
+/* benefits start */
+
+.benefits {
+    padding-bottom: 140px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.benefits > h2 {
+    font-weight: var(--weightBold);
+    color: var(--darkGrayishBlue);
+    font-size: 45px;
+    margin: 0 0 20px;
+}
+
+.benefits > p {
+    margin: 0 auto 0;
+    font-weight: var(--weightRegular);
+    color: var(--grayishBlue);
+    width: 728px;
+    font-size: 21px;
+}
+
+.benefits > div {
+    margin-top: 80px;
+    gap: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.benefits__image-box {
+    position: relative;
+    left: -4%;
+}
+
+.benefits__image-box img {
+    width: 100%;
+}
+
+.benefits__text-box > div {
+    text-align: start;
+    margin-bottom: 50px;
+    line-height: 1.6;
+    max-width: 380px;
+    color: var(--grayishBlue);
+}
+
+.benefits__text-box h3 {
+    color: var(--darkGrayishBlue);
+    font-weight: var(--weightBold);
+    margin-bottom: 20px;
+}
+
+/* benefits end */
