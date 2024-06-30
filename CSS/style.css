@@ -295,3 +295,17 @@ body {
 
 
 /* features end */
+
+/* companies start */
+
+.companies {
+    padding: 20px 0 140px;
+}
+
+.companies .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* companies end */
